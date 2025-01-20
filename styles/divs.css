@@ -1,0 +1,14 @@
+.HeadOfSite {
+    height: 120px;
+    background-color: rgb(51, 153, 153);
+    border-radius: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.background{
+  background-color: rgb(3, 4, 44);
+  height: 100%;
+  width: 100%;
+
+}
