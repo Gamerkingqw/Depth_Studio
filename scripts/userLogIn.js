@@ -1,5 +1,13 @@
 console.log(document.cookie);
 console.log(2*3);
+
+function onButtonClick() {
+    console.log("hello world")
+}
+
+//document.getElementById("shopSystem").style.height = document.getElementById("shopSystem").style.width + "px";
+//console.log(document.getElementById("shopSystem").style.width + "px");
+
 //const userSearchbar = document.getElementsByClassName('userSearchbar');
 //const passwordSearchbar = document.getElementsByClassName('passwordSearchbar');
 //alert("alert");
@@ -22,5 +30,13 @@ console.log(password[0,1]);
     console.log(wert);
 }, 5000);
 */
+
+/** function testFunktion() {
+    console.log('test function');
+}
+
+testFunktion();
+*/
+
 
 
