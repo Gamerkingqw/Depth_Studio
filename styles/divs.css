@@ -26,3 +26,7 @@
   padding-top: 10px;
   margin-top: 1000px;
 }
+#gameDiv {
+  display: block;
+  width: 100%;
+}

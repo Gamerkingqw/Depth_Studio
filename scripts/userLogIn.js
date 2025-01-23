@@ -1,10 +1,14 @@
 console.log(document.cookie);
 console.log(2*3);
+var counter = 0;
 
 function onButtonClick() {
-    console.log("hello world")
+    console.log("hello world");
 }
-
+function onGameButtonClick() {
+    counter += 1;
+    document.getElementById("cookieCounter").innerText = counter;
+}
 //document.getElementById("shopSystem").style.height = document.getElementById("shopSystem").style.width + "px";
 //console.log(document.getElementById("shopSystem").style.width + "px");
 
