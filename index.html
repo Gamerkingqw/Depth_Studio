@@ -12,49 +12,29 @@
     <script type="text/javascript" src="scripts/userLogIn.js" async="async"></script>
 
     <style>
-      abbr{
-        font-size: 100px;
-        text-decoration-line: none;
-        
+      html {
+        height: 100%;
       }
     </style>
+
   </head>
   <body>
-
-    <div class="HeadOfSite">
-      <img class="DPlogoL" src="images/Depth_Studio_Logo.png">
+    <img id="DPlogo" src="images/Depth_Studio_Logo.png">
+    <div class="titleDiv">
       <p class="title">Depth Studio</p>
     </div>
 
-    <div class="background">
+    <div class="searchbarDiv">
       <input class="searchbar" type="text" placeholder="search">
     </div>
 
     <div class="startPlaying">    
       <p class="text">Start playing now</p>
-      <button class="join_discord" href="https://discord.gg/RzS6aUUk" target="_blank">Join our Discord Server</a>
+      <button id="join_discord" href="https://discord.gg/RzS6aUUk" target="_blank">Join our Discord Server</a>
+      <button id="join_youtube" href="https://discord.gg/RzS6aUUk" target="_blank">Join our Youtube</a>
+      <img id="youtubeLogo" src="images/YouTubeLogo.webp">
+      <button id="join_tiktok" href="https://discord.gg/RzS6aUUk" target="_blank">Follow us on TikTok</a>
+      <button id="join_twitter" href="https://discord.gg/RzS6aUUk" target="_blank">Join us on Twitter/X</a>
     </div>
-
-    <div class="Stuff-To-Test">
-      <textarea>text here</textarea>
-      <abbr title="Test by S. S.">TBSS</abbr>
-      <button onclick="onButtonClick()" ></button>
-    </div>
-
-    <div id="gameDiv">
-      <div id="powerUpDivLeft">
-
-      </div>
-      <div id="cookieDiv">
-        <p id="cookieCounter">0</p>
-        <button class="gameButton" onclick="onGameButtonClick()">Click</button>
-      </div>
-      <div id="powerUpDivRight">
-      <button class="gameButton" onclick="makeMoreExpensive()">make the cookies more expensiv</button>
-      <p id="price">price:</p>
-      <p id="currentMultiplicator">current multiplicator</p>
-      </div>
-    </div>
-
   </body>
 </html>

@@ -1,62 +1,25 @@
-.HeadOfSite {
-    height: 120px;
-    background-color: rgb(51, 153, 153);
-    border-radius: 100px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
-}
-.background {
-  background-color: rgb(51, 153, 153);
-  height: 100px;
-  width: 90%;
-  padding-top: 30px;
+div {
   margin-left: auto;
   margin-right: auto;
-  border-bottom-right-radius: 75px;
-  border-bottom-left-radius: 75px;
-  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: rgb(51, 153, 153);
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.titleDiv {
+  height: 10vh;
+  width: 70vw;
+  border-radius: 100px;
+}
+.searchbarDiv {
+  height: 7vh;
+  width: 60vw;
+  border-bottom-right-radius: 4vh;
+  border-bottom-left-radius: 4vh;
 }
 .startPlaying {
-  background-color: aliceblue;
+  
 }
-.Stuff-To-Test {
-  background-color: rgb(255, 0, 0);
-  height: 250px;
-  padding-top: 10px;
-  margin-top: 1000px;
-}
-#gameDiv {
-  display: block;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: aqua;
-}
-#cookieDiv {
-  vertical-align: top;
-  display: inline-block;
-  width: 33%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 50px;
-  height: 400px;
-  background-color: antiquewhite;
-}
-#powerUpDivLeft {
-  vertical-align: top;
-  display: inline-block;
-  width: 33%;
-  margin-right: 0;
-}
-#powerUpDivRight {
-  vertical-align: top;
-  display: inline-block;
-  float: right;
-  width: 20%;
-  height: 400px;
-  margin-left: 0;
-  margin-right: 0;
-}
+

@@ -1,14 +1,14 @@
-.DPlogoL {
-    height: 100px;
+#DPlogo {
+    float: left;
+    height: 10vh;
     border-width: 5px;
     border-color: rgb(0, 0, 0);
-    border-style: solid;
+    border-style: none;
     border-radius:100px;
-    vertical-align: middle;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
-.YouTubeLogo {
-    height: 100px;
+#youtubeLogo {
+    vertical-align: middle;
+    float: left;
+    height: 1vh;
 }

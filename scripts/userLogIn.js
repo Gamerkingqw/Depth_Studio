@@ -1,15 +1,34 @@
-console.log(document.cookie);
-console.log(2*3);
-var counter = 0;
 
-function onButtonClick() {
-    console.log("hello world");
-}
+/** console.log(document.cookie);
+var cookie = 0;
+var cookieMultiplicator = 1;
+var cookiePrice = 10
+
+
 function onGameButtonClick() {
-    counter += 1;
-    document.getElementById("cookieCounter").innerText = counter;
+    cookie += 1 * cookieMultiplicator;
+    cookie = ~~ cookie;
 }
-document.get
+function makeMoreExpensive() {
+    if(cookie >= cookiePrice){
+        cookie -= cookiePrice;
+        cookie = ~~ cookie;
+        cookiePrice = cookiePrice * 2;
+        cookieMultiplicator *= 1.5;
+    }
+}
+function setTexts() {
+        document.getElementById("price").innerText = cookiePrice + "cookies";
+        document.getElementById("cookieCounter").innerText = cookie;
+        console.log("hjoj");
+}
+setInterval(() => {
+    setTexts();
+}, 100)
+*/
+
+
+
 //document.getElementById("shopSystem").style.height = document.getElementById("shopSystem").style.width + "px";
 //console.log(document.getElementById("shopSystem").style.width + "px");
 
