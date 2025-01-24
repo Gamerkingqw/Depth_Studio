@@ -29,4 +29,37 @@
 #gameDiv {
   display: block;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: aqua;
+}
+#cookieDiv {
+  vertical-align: top;
+  display: inline-block;
+  width: 33%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 50px;
+  height: 400px;
+  background-color: antiquewhite;
+}
+#powerUpDivLeft {
+  vertical-align: top;
+  display: inline-block;
+  width: 33%;
+  height: 400px;
+  background-color: aliceblue;
+  margin-left: 2.5px;
+  margin-right: 0;
+}
+#powerUpDivRight {
+  vertical-align: top;
+  display: inline-block;
+  float: right;
+  width: 20%;
+  height: 400px;
+  margin-left: 0;
+  margin-right: 0;
 }

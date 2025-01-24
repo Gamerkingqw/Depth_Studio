@@ -9,6 +9,7 @@ function onGameButtonClick() {
     counter += 1;
     document.getElementById("cookieCounter").innerText = counter;
 }
+document.get
 //document.getElementById("shopSystem").style.height = document.getElementById("shopSystem").style.width + "px";
 //console.log(document.getElementById("shopSystem").style.width + "px");
 
@@ -41,6 +42,3 @@ console.log(password[0,1]);
 
 testFunktion();
 */
-
-
-
