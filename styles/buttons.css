@@ -2,7 +2,7 @@ button {
   display: block;
   font-family: Arial;
   text-decoration: none;
-  background-color: blue;
+  background-color: rgb(88, 101, 242);
   color: white;
   font-weight: bold;
   font-size: large;
@@ -13,8 +13,8 @@ button {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 20px;
   border: none;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
@@ -24,7 +24,7 @@ button {
 
 button:hover {
   background-color: white;
-  color: blue;
+  color: rgb(88, 101, 242);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0);
 }
 
@@ -43,5 +43,8 @@ button:active {
 #tiktokButton {
     background-color: black;
     color: white;
-    -webkit-text-stroke: 0.5px;
-    text-shadow: 1px 1px blueviolet, -1px -1px blue;}
+}
+
+#tiktokButtonText {
+  text-shadow: 1px 1px rgba(255, 0, 102, 1), -1px -1px rgba(0, 204, 255, 1);
+}
