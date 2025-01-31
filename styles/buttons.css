@@ -48,3 +48,7 @@ button:active {
 #tiktokButtonText {
   text-shadow: 1px 1px rgba(255, 0, 102, 1), -1px -1px rgba(0, 204, 255, 1);
 }
+
+#sendDiscordComment {
+    display: inline-block;
+}

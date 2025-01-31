@@ -9,7 +9,8 @@
     <link rel="Stylesheet" href="styles/images.css">
     <link rel="Stylesheet" href="styles/divs.css">
     <link rel="Stylesheet" href="styles/searchbars.css">
-    <script type="text/javascript" src="scripts/userLogIn.js" async="async"></script>
+    <script type="text/javascript" src="scripts/userLogIn.js" defer></script>
+    <script type="text/javascript" src="scripts/discordApiTest.js" defer></script>
 
     <style>
       html {
@@ -29,6 +30,10 @@
     </div>
 
     <div class="startPlaying">    
+
+      <input type="text" id="messageInput" placeholder="Enter your message">
+      <button id="sendButton">Send Message</button>
+
       <p class="text">Start playing now</p>
       <button id="robloxButton">Join the Game now</button>
       <button id="discordButton" href="https://discord.gg/RzS6aUUk" target="_blank">Join our Discord Server</a>

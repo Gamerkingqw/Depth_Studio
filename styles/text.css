@@ -18,3 +18,7 @@ p {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+#dicordComment {
+  height: 30px;
+  width: 100px;
+}
