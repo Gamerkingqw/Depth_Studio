@@ -3,12 +3,12 @@
   <head>
     <!--Kommentare macht man so-->
     <title>Depth Studio</title>
-    <link rel="Stylesheet" href="styles/buttons.css">
-    <link rel="Stylesheet" href="styles/links.css">
-    <link rel="Stylesheet" href="styles/text.css">
-    <link rel="Stylesheet" href="styles/images.css">
-    <link rel="Stylesheet" href="styles/divs.css">
-    <link rel="Stylesheet" href="styles/searchbars.css">
+    <link rel="Stylesheet" href="MainStuff/styles/buttons.css">
+    <link rel="Stylesheet" href="MainStuff/styles/links.css">
+    <link rel="Stylesheet" href="MainStuff/styles/text.css">
+    <link rel="Stylesheet" href="MainStuff/styles/images.css">
+    <link rel="Stylesheet" href="MainStuff/styles/divs.css">
+
     <script type="text/javascript" src="scripts/userLogIn.js" defer></script>
     <script type="text/javascript" src="scripts/discordApiTest.js" defer></script>
 
@@ -20,20 +20,26 @@
 
   </head>
   <body>
-    <img id="DPlogo" src="images/Depth_Studio_Logo.png">
+    
+    <!--
+        <img id="DPlogo" src="images/Depth_Studio_Logo.png">
+        --------------------------------------------------------------
+        <input type="text" id="messageInput" placeholder="Enter your message">
+        <button id="sendButton">Send Message</button>
+        --------------------------------------------------------------
+    -->
+
     <div class="titleDiv">
       <p class="title">Depth Studio</p>
     </div>
 
-    <div class="searchbarDiv">
-      <input class="searchbar" type="text" placeholder="search">
+    <div id="selectionDiv">
+      <a class="selectionLinks" id="firstSelectionLink" href="games.html"> Games</a>
+      <a class="selectionLinks" id="middleSelectionLink" href="contact.html"> Contact</a>
+      <a class="selectionLinks" id="lastSelectionLink" href="suggestions.html"> Suggestions</a>
     </div>
 
     <div class="startPlaying">    
-
-      <input type="text" id="messageInput" placeholder="Enter your message">
-      <button id="sendButton">Send Message</button>
-
       <p class="text">Start playing now</p>
       <button id="robloxButton">Join the Game now</button>
       <button id="discordButton" href="https://discord.gg/RzS6aUUk" target="_blank">Join our Discord Server</a>
@@ -41,5 +47,8 @@
       <button id="tiktokButton" href="https://discord.gg/RzS6aUUk" target="_blank">Follow us on <span id="tiktokButtonText">TikTok</span></a>
       <button id="twitterButton" href="https://discord.gg/RzS6aUUk" target="_blank">Join us on X</a>
     </div>
+
+
+    
   </body>
 </html>
