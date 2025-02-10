@@ -15,7 +15,6 @@ div {
   padding-bottom: 3vh;
 }
 #selectionDiv {
-  padding-top: 2vw;
-  padding-bottom: 2vw;
+  height: 200px;
 }
 

@@ -1,4 +1,6 @@
 .selectionLinks {
+    
+    display: inline-block;
     text-decoration-line: none;
     color: black;
     font-size: 3vh;
@@ -8,22 +10,25 @@
     padding-bottom: 0.5vw;
     background-color: rgb(255, 255, 255);
     border-radius: 0.4vw;
-    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    box-shadow: 3spx 5px 0 rgb(0, 0, 0);
     margin-left: 5px;
     margin-right: 5px;
-    transition: background-color 0.2s;
+    margin-top: 20px;
+    transition: background-color 0.2s, margin-top 0.2s, box-shadow 0.2px;
 }
 
 .selectionLinks:hover {
     background-color: rgb(218, 218, 218);
 }
 .selectionLinks:active {
-    f
+    margin-top: 24px;
+    background-color: white;
+    box-shadow: 1px 1px 0 black;
 }
-.selectionLinks {
+#firstSelectionLink {
     margin-left: 34vw;
 }
 
-#lastSelectionLinks {
+#lastSelectionLink {
     margin-right: 34vw;
 }
