@@ -5,15 +5,13 @@ div {
   padding-right: 0;
   margin-bottom: 50px;
 }
-.titleDiv {
-  padding-top: 2vw;
+#headDiv {
+  padding-top: 1vw;
+  padding-left: 0.5vw;
   height: 10vh;
 }
-.startPlaying {
-  padding-top: 5vw;
-  padding-bottom: 3vh;
-}
-#selectionDiv {
-  height: 200px;
+#mainDiv {
+vertical-align: middle;
+margin-top: 25vh;
 }
 

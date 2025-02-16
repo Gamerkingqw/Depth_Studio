@@ -1,4 +1,5 @@
 p {
+  font-family: helvetica;
   margin-bottom: 0;
   margin-top: 0;
   margin-left: auto;
@@ -6,23 +7,19 @@ p {
   cursor: default;
   text-align: center;
 }
-.title {
+
+#title {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-family: helvetica;
   font-size: 8vh;
   font-weight: bolder;
-  text-shadow: 5px 5px 5px rgb(55, 64, 66);
 }
   
 .text {
-  font-family: Arial;
-  font-size: 30px;
-  font-weight: bold;
+  margin-top: 2vw;
+ font-size: 1vw;
+  font-weight: 100;
   margin-bottom: 50px;
+  color: white;
 }
 
-#dicordComment {
-  height: 30px;
-  width: 100px;
-}

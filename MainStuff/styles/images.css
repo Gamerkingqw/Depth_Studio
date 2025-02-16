@@ -1,5 +1,7 @@
 #DPlogo {
     float: left;
-    height: 100px;
+    height: 75px;
     border-radius:100px;
+    vertical-align: middle;
+    margin-right: 70vw;
 }
