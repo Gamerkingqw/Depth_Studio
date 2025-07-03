@@ -1,4 +1,4 @@
-const webhookUrl = "https://discord.com/api/webhooks/1334841293263601707/rm8h4oEkY0l9v14FIXfxNz8IgREc86a4pwDM2h_s8X-1XKGHRcrxURMAxH0XECJjJixj";
+const webhookUrl = "https://discord.com/api/webhooks/1390275583165857803/rsdqSsaAdhFvvGQdTWBEObdAvbZuqwHfe0YkiPZ-Grxkk-JecNDPqp7pmzqi8N-w87fV";
 
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("sendButton").addEventListener("click", sendWebhookMessage);
