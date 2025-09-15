@@ -14,4 +14,9 @@ div {
 vertical-align: middle;
 margin-top: 25vh;
 }
+.titleDiv {
+  padding-top: .01vw;
+  padding-bottom: .01vw;
+  background-color: black;
+}
 

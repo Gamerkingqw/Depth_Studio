@@ -1,23 +1,69 @@
 <!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <title>Blue Games</title>
+<html>
+  <head>
+    <!--Kommentare macht man so-->
+    <title>Blue Games</title>
+    <link rel="Stylesheet" href="MainStuff/styles/buttons.css">
+    <link rel="Stylesheet" href="MainStuff/styles/links.css">
+    <link rel="Stylesheet" href="MainStuff/styles/text.css">
+    <link rel="Stylesheet" href="MainStuff/styles/images.css">
+    <link rel="Stylesheet" href="MainStuff/styles/divs.css">
+    <link rel="stylesheet" href="MainStuff/styles/background.css">
 
-<!--
-  <link rel="stylesheet" href="MainStuff/styles/buttons.css" />
-  <script src="MainStuff/scripts/userLogIn.js" defer></script>
-  <script src="MainStuff/scripts/discordApiTest.js" defer></script>
--->
+    <script type="text/javascript" src="scripts/userLogIn.js" defer></script>
+    <script type="text/javascript" src="scripts/discordApiTest.js" defer></script>
 
-</head>
-<body>
-<!--
-  <input type="text" id="messageInput" placeholder="Enter your message">
-  <button id="sendButton">Send Message</button>
--->
+    <style>
+      html {
+        height: 100%;
+      }
+    </style>
 
-  <p>Site in development</p>
+  </head>
+  <body>
+    
+    <!--
+        <img id="DPlogo" src="images/Depth_Studio_Logo.png">
+        --------------------------------------------------------------
+        <input type="text" id="messageInput" placeholder="Enter your message">
+        <button id="sendButton">Send Message</button>
+        --------------------------------------------------------------
+    -->
 
-</body>
+    <div class="titleDiv">
+      <div>
+        <img id="DPlogo" src="images/Depth_Studio_Logo.png" alt="Depth Studio">
+      </div>
+
+      <div>
+        <p class="title">Blue Games</p> 
+      </div>
+
+      <div>
+
+      </div>
+    </div>
+
+    <div id="selectionDiv">
+      <a class="selectionLinks" id="firstSelectionLink" > Games</a>
+      <a class="selectionLinks" id="middleSelectionLink" href="contact.html"> Contact</a>
+      <a class="selectionLinks" id="lastSelectionLink" href="suggestions.html"> Suggestions</a>
+    </div>
+
+    <div class="startPlaying">    
+      <p class="text">Start playing now</p>
+      <button id="robloxButton">Join the Game now</button>
+      <button id="discordButton" href="https://discord.gg/RzS6aUUk" target="_blank">Join our Discord Server</a>
+      <button id="youtubeButton" href="https://discord.gg/RzS6aUUk" target="_blank">Join our Youtube</a>
+      <button id="tiktokButton" href="https://discord.gg/RzS6aUUk" target="_blank">Follow us on <span id="tiktokButtonText">TikTok</span></a>
+      <button id="twitterButton" href="https://discord.gg/RzS6aUUk" target="_blank">Join us on X</a>
+    </div>
+    <div>
+      
+
+
+    </div>
+
+    
+  </body>
 </html>
