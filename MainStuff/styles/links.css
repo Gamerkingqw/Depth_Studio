@@ -1,5 +1,9 @@
-.playNowButton {
-    
+
+/*
+button {
+
+
+    white-space: nowrap;
     display: block;
     font-family: Helvetica;
     font-weight: bold;
@@ -7,7 +11,7 @@
     text-decoration-line: none;
     color: rgb(255, 255, 255);
     font-size: 3vh;
-    background-color: rgb(51, 153, 153);
+    background-color: #0000FF;
     border-top-left-radius: 1vw;
     border-bottom-right-radius: 1vw;
     box-shadow: 3spx 5px 0 rgb(0, 0, 0);
@@ -19,12 +23,13 @@
     margin-right: 43vw;
     margin-top: 40px;
     transition: background-color 0.2s, margin-top 0.2s, box-shadow 0.2px;
+
 }
 
-.playNowButton:hover {
-    background-color: rgb(62, 184, 184);
-}
-.playNowButton:active {
+
+button:hover {
+    background-color: #4747ff;}
+button:active {
     margin-top: 24px;
     background-color: white;
     box-shadow: 1px 1px 0 black;
@@ -39,3 +44,4 @@
     color: rgb(255, 255, 255);
     margin-left: 2vw;
 }
+*/
