@@ -1,4 +1,8 @@
-
+.buttonsDiv {
+  display: flex;
+  flex-wrap: wrap; /* Zeilenumbruch nur bei zu wenig Platz */
+  gap: 1vw;        /* Abstand zwischen Buttons */
+}
 
 /*
 div {

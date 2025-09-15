@@ -1,39 +1,6 @@
 
 /*
-button {
 
-
-    white-space: nowrap;
-    display: block;
-    font-family: Helvetica;
-    font-weight: bold;
-    text-align: center;
-    text-decoration-line: none;
-    color: rgb(255, 255, 255);
-    font-size: 3vh;
-    background-color: #0000FF;
-    border-top-left-radius: 1vw;
-    border-bottom-right-radius: 1vw;
-    box-shadow: 3spx 5px 0 rgb(0, 0, 0);
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 0.75vw;
-    padding-bottom: 0.75vw;
-    margin-left: 43vw;
-    margin-right: 43vw;
-    margin-top: 40px;
-    transition: background-color 0.2s, margin-top 0.2s, box-shadow 0.2px;
-
-}
-
-
-button:hover {
-    background-color: #4747ff;}
-button:active {
-    margin-top: 24px;
-    background-color: white;
-    box-shadow: 1px 1px 0 black;
-}
 
 .headLink {
     font-family: Helvetica;

@@ -1,10 +1,48 @@
 /* Basis = Mobile */
-body { font-size: 14px; }
-nav { flex-direction: column; }
+body { 
+    font-size: 14px; 
+}
+nav { 
+    flex-direction: column; 
+}
 img { 
     max-width: 100%;
     height: auto;
 }
+p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+button {
+
+
+    white-space: nowrap;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    background-color: #0000FF;
+    border-top-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    box-shadow: 0.5vh 0.5vh 0.75vh black;
+    transition: background-color 0.2s, transform 0.1s, box-shadow 0.1s;
+
+
+
+}
+
+
+button:hover {
+    background-color: #4747ff;
+}
+
+button:active {
+    background-color: #1919f5;
+    transform: translateY(0.3vh);
+    box-shadow: 0.2vh 0.2vh 0.5vh black;
+
+}
+
 
 /* Tablet */
 @media (min-width: 601px) {
